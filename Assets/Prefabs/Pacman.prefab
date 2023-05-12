@@ -13,6 +13,10 @@ GameObject:
   - component: {fileID: 6038318316045854512}
   - component: {fileID: 6038318316045854513}
   - component: {fileID: 6038318316045854514}
+  - component: {fileID: 305138356315752166}
+  - component: {fileID: 7884461052326859288}
+  - component: {fileID: 67177898240141486}
+  - component: {fileID: 2234036739960786442}
   - component: {fileID: 6038318316045854519}
   - component: {fileID: 6038318316045854515}
   m_Layer: 6
@@ -140,6 +144,59 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   deathSequence: {fileID: 8277160542397365967}
+  initialBehavior: {fileID: 305138356315752166}
+  behaviors: []
+--- !u!114 &305138356315752166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038318316045854526}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4604fb08c5676e9409bd66eeb8b858d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 7
+--- !u!114 &7884461052326859288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038318316045854526}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea3a4338bf931d642958998b2b8faa17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 3
+--- !u!114 &67177898240141486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038318316045854526}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e11c2051515e261428a4aa082463dadf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 5
+--- !u!114 &2234036739960786442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6038318316045854526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3271aa598ec98a544b27ba0b6c381173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &6038318316045854519
 MonoBehaviour:
   m_ObjectHideFlags: 0
